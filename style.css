@@ -25,7 +25,7 @@ video {
     filter: FlipV;
 }
 
-cameraGo {
+cameraGo, cameraSelect {
     width: 200px;
     background-color: black;
     color: white;

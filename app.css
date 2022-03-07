@@ -5,14 +5,14 @@ html, body{
   width: 100%;
 }
 
-#camera, #camera--view, #camera--sensor, #camera--output{
+.video {
     position: fixed;
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-#camera--view, #camera--sensor, #camera--output{
+.video {
     transform: scaleX(-1);
     filter: FlipH;
 }

@@ -5,20 +5,6 @@ html, body{
   width: 100%;
 }
 
-camera, video {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-cameraSelect {
-  text-align: left;
-  padding: 0.5em 0;
-  background: #333e5a;
-}
-
-
 video {
     position: fixed;
     height: 100%;
@@ -46,4 +32,10 @@ cameraGo {
     left: calc(50% - 100px);
 }
 
+
+cameraSelect {
+  text-align: left;
+  padding: 0.5em 0;
+  background: #333e5a;
+}
 

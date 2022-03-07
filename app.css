@@ -5,10 +5,16 @@ html, body{
   width: 100%;
 }
 
-main {
-  background: #ffffff;
-  min-height: 80vh;
-  flex-grow: 1;
+#camera, #camera--view, #camera--sensor, #camera--output{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#camera--view, #camera--sensor, #camera--output{
+    transform: scaleX(-1);
+    filter: FlipH;
 }
 
 .controls {
@@ -20,23 +26,17 @@ main {
 .controls {
   color: #fff;
 }
+
 .controls p {
   margin: 0;
 }
+
 .controls > div {
   margin-bottom: 0.5em;
 }
+
 .controls > div:last-child {
   margin-bottom: 0;
-}
-
-video {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  transform: scaleX(-1);
-  filter: FlipH;
 }
 
 

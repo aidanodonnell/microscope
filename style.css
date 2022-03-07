@@ -17,7 +17,7 @@ video {
     filter: FlipV;
 }
 
-cameraGo {
+cameraSelect {
     width: 200px;
     background-color: black;
     color: white;
@@ -33,9 +33,4 @@ cameraGo {
 }
 
 
-cameraSelect {
-  text-align: left;
-  padding: 0.5em 0;
-  background: #333e5a;
-}
 

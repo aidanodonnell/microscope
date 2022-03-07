@@ -5,6 +5,14 @@ html, body{
   width: 100%;
 }
 
+#camera, #video {
+    position: fixed;
+    height: 100%;
+    width: 100%:
+    object-fit: cover;
+}
+
+
 video {
     position: fixed;
     height: 100%;
@@ -17,7 +25,7 @@ video {
     filter: FlipH;
 }
 
-.controls{
+#select, #button {
     width: 200px;
     background-color: black;
     color: white;

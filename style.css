@@ -1,36 +1,51 @@
-html, body{
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
+html,
+body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   width: 100%;
 }
 
-#video {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-#video {
-    transform: scaleX(-1);
-    filter: grayscale(100%);
-}
 
 #cameraGo {
-  width: 200px;
-  background-color: black;
-    color: white;
-    font-size: 16px;
-    border-radius: 30px;
-    border: none;
-    padding: 15px 20px;
-    text-align: center;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-    position: fixed;
-    bottom: 30px;
-    left: calc(50% - 100px);
+   position: fixed;
+   width: 50px;
+   background-color: black;
+   color: white;
+   font-size: 16px;
+   border-radius: 30px;
+   border: none;
+   padding: 5px 5px;
+   text-align: center;
+   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+   top: 0%;
+   left: 3%;
+}
+
+#cameraSelect {
+   position: fixed;
+   width: 50px;
+   background-color: black;
+   color: white;
+   font-size: 16px;
+   border-radius: 30px;
+   border: none;
+   padding: 5px 5px;
+   text-align: center;
+   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+   top: 0%;
+   left: 0%;
 }
 
 
+#video {
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
 
+#video {
+   transform: scaleX(-1);
+   filter: FlipH;
+}

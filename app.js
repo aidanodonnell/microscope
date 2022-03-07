@@ -1,4 +1,4 @@
-const cameraview = document.getElementById('camera--view');
+const video = document.getElementById('video');
 const button = document.getElementById('button');
 const select = document.getElementById('select');
 let currentStream;

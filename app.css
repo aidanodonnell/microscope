@@ -5,19 +5,19 @@ html, body{
   width: 100%;
 }
 
-.video{
+video{
     position: fixed;
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.video{
+video{
     transform: scaleX(-1);
     filter: FlipH;
 }
 
-#controls{
+.controls{
   text-align: center;
   padding: 0.5em 0;
   background: ##2a6b3b;

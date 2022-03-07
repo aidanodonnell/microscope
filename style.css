@@ -5,7 +5,7 @@ html, body{
   width: 100%;
 }
 
-#camera, #video {
+camera, video {
   position: fixed;
   height: 100%;
   width: 100%;

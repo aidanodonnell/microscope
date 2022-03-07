@@ -13,14 +13,14 @@ html, body{
 }
 
 
-video {
+#video {
     position: fixed;
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-video {
+#video {
     transform: scaleX(-1);
     filter: FlipH;
 }

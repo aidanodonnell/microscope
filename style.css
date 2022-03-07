@@ -17,23 +17,19 @@ video {
     filter: FlipH;
 }
 
-.controls {
-  text-align: center;
-  padding: 0.5em 0;
-  background: ##2a6b3b;
-}
-
-.controls {
-  color: #fff;
-}
-.controls p {
-  margin: 0;
-}
-.controls > div {
-  margin-bottom: 0.5em;
-}
-.controls > div:last-child {
-  margin-bottom: 0;
+.controls{
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    position: fixed;
+    bottom: 30px;
+    left: calc(50% - 100px);
 }
 
 

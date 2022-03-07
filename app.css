@@ -15,11 +15,6 @@ body {
   flex-direction: column;
 }
 
-header {
-  background: #f0293e;
-  color: #fff;
-  text-align: center;
-}
 main {
   background: #ffffff;
   min-height: 80vh;
@@ -46,18 +41,10 @@ main {
 }
 
 video {
-  width: 100%;
-  max-width: 600px;
-  display: block;
-  margin: 0 auto;
+  position: fixed;
+  height: 100%;
+  width: 100%:
+  object-fit: cover;
 }
 
-footer {
-  background: #333e5a;
-  color: #fff;
-  text-align: center;
-}
 
-footer a {
-  color: #fff;
-}

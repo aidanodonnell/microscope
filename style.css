@@ -6,10 +6,10 @@ html, body{
 }
 
 #camera, #video {
-    position: fixed;
-    height: 100%;
-    width: 100%:
-    object-fit: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 
@@ -22,7 +22,7 @@ html, body{
 
 #video {
     transform: scaleX(-1);
-    filter: FlipH;
+    filter: FlipV;
 }
 
 #select, #button {

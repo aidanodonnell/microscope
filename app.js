@@ -1,6 +1,6 @@
 const video = document.getElementById('video');
-const button = document.getElementById('button');
-const select = document.getElementById('select');
+const button = document.getElementById('cameraGo');
+const select = document.getElementById('cameraSelect');
 let currentStream;
 
 function stopMediaTracks(stream) {

@@ -14,10 +14,10 @@ video {
 
 video {
     transform: scaleX(-1);
-    filter: FlipV;
+    filter: grayscale(100%);
 }
 
-cameraGo{
+cameraGo {
   width: 200px;
   background-color: black;
     color: white;

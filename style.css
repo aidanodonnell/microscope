@@ -5,6 +5,12 @@ html, body{
   width: 100%;
 }
 
+camera {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
 video {
   position: fixed;
   height: 100%;

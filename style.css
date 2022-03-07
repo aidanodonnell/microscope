@@ -12,6 +12,12 @@ camera, video {
   object-fit: cover;
 }
 
+cameraSelect {
+  text-align: left;
+  padding: 0.5em 0;
+  background: #333e5a;
+}
+
 
 video {
     position: fixed;
@@ -40,9 +46,4 @@ cameraGo {
     left: calc(50% - 100px);
 }
 
-cameraSelect {
-  text-align: center;
-  padding: 0.5em 0;
-  background: #333e5a;
-}
 

@@ -5,19 +5,13 @@ html, body{
   width: 100%;
 }
 
-camera {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-
-video {
+#camera, #video {
   position: fixed;
   height: 100%;
   width: 100%;
   object-fit: cover;
   transform: scaleX(-1);
-    filter: FlipV;
+  filter: FlipV;
 }
 
 cameraGo {
@@ -34,8 +28,7 @@ cameraGo {
     bottom: 30px;
     left: calc(50% - 100px);
 }
-  
-  
+
 
 cameraSelect {
     width: 200px;

@@ -5,44 +5,22 @@ html, body{
   width: 100%;
 }
 
-camera, video {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  transform: scaleX(-1);
-  filter: FlipV;
+#video{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
-cameraGo {
-    width: 200px;
-    background-color: black;
-    color: white;
-    font-size: 16px;
-    border-radius: 30px;
-    border: none;
-    padding: 15px 20px;
-    text-align: right;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-    position: fixed;
-    bottom: 30px;
-    left: calc(50% - 100px);
+#video{
+    transform: scaleX(-1);
+    filter: FlipV;
 }
 
-
-cameraSelect {
-    width: 200px;
-    background-color: black;
-    color: white;
-    font-size: 16px;
-    border-radius: 30px;
-    border: none;
-    padding: 15px 20px;
-    text-align: left;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-    position: fixed;
-    bottom: 30px;
-    left: calc(50% - 100px);
+.controls{
+  text-align: center;
+  padding: 0.5em 0;
+  background: ##2a6b3b;
 }
 
 

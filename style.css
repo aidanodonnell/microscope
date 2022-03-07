@@ -25,7 +25,7 @@ html, body{
     filter: FlipV;
 }
 
-#cameraGo, #cameraSelect {
+#cameraGo {
     width: 200px;
     background-color: black;
     color: white;

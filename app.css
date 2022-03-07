@@ -23,20 +23,5 @@ html, body{
   background: #ffffff;
 }
 
-.controls {
-  color: #fff;
-}
-
-.controls p {
-  margin: 0;
-}
-
-.controls > div {
-  margin-bottom: 0.5em;
-}
-
-.controls > div:last-child {
-  margin-bottom: 0;
-}
 
 

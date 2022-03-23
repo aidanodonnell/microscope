@@ -19,12 +19,12 @@ body {
    text-align: center;
    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
    top: 0%;
-   left: 3%;
+   left: 15%;
 }
 
 #cameraSelect {
    position: fixed;
-   width: 50px;
+   width: 150px;
    background-color: black;
    color: white;
    font-size: 16px;
@@ -34,7 +34,7 @@ body {
    text-align: center;
    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
    top: 0%;
-   left: 0%;
+   left: 6%;
 }
 
 
